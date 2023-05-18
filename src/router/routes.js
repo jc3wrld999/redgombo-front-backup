@@ -3,7 +3,6 @@ import DashboardLayout from "@/layout/dashboard/DashboardLayout.vue";
 import NotFound from "@/pages/NotFoundPage.vue";
 
 // Admin pages
-import Dashboard from "@/pages/Dashboard.vue";
 import UserProfile from "@/pages/UserProfile.vue";
 import TestPage from "@/pages/TestPage.vue"
 import TestPage2 from "@/pages/TestPage2.vue"
@@ -12,16 +11,11 @@ const routes = [
   {
     path: "/",
     component: DashboardLayout,
-    redirect: "/profile",
+    redirect: "/dashboard",
     children: [
       {
         path: "dashboard",
         name: "dashboard",
-        component: Dashboard,
-      },
-      {
-        path: "profile",
-        name: "profile",
         component: UserProfile,
       },
       {
