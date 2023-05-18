@@ -28,9 +28,17 @@
     "vue-router": "^3.6.5",
     "vue-silentbox": "^2.4.6",
     "vue-timeago": "^5.1.3",
-    "vuex": "^3.6.2"
+    "vuex": "^3.6.2",
+
+    "bootstrap": "4.6.2",
+    "chartist": "0.11.0",
+    "core-js": "^3.30.2",
+    "eslint-plugin-vue": "^9.8.0",
+    "vue-clickaway": "2.2.2",
+    "vue-notifyjs": "0.3.0"
   },
   "devDependencies": {
+    "@vue/babel-preset-app": "^5.0.8",
     "@vue/cli-plugin-babel": "^5.0.8",
     "@vue/cli-plugin-eslint": "^3.12.1",
     "@vue/cli-plugin-unit-mocha": "^5.0.8",
@@ -40,7 +48,9 @@
     "chai": "^4.3.7",
     "node-sass": "^6.0.1",
     "sass-loader": "^10.4.1",
-    "vue-template-compiler": "^2.7.14"
+    "vue-template-compiler": "^2.7.14",
+    "@vue/eslint-config-prettier": "5.1.0",
+    "sass": "1.56.2"
   },
   "browserslist": [
     "> 1%",
