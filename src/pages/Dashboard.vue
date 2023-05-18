@@ -137,7 +137,7 @@
 	              <li style="list-style-type:circle">공공 데이터 포털의 서울시 버스 api를 사용하여 개발</li>
 	            </ul>
 	            <ul id="35d2c552-1a93-4e90-ac6d-53a18ee99ac4" class="bulleted-list">
-	              <li style="list-style-type:circle">지도 라이브러리(replit, mapbox) 커스터마이징</li>
+	              <li style="list-style-type:circle">지도 라이브러리 커스터마이징</li>
 	            </ul>
 	            <ul id="7a34909d-ec78-4463-944f-96300f01f200" class="bulleted-list">
 	              <li style="list-style-type:circle">Docker에서 Jenkins로 빌드</li>
@@ -315,7 +315,7 @@
 	      </li>
 	    </ul>
 	    <ul id="17b9fbd7-27da-4245-9592-35e90774569b" class="bulleted-list">
-	      <li style="list-style-type:disc">mapbox 지도 라이브러리 연동 및 커스터마이징</li>
+	      <li style="list-style-type:disc">지도 라이브러리 연동 및 커스터마이징</li>
 	    </ul>
 	    <p id="0c005deb-2dbc-4031-9766-f7529b3f424b" class="">API가 원하는 값들을 한번에 가져오지 않아 API를 호출하고 결과값에서 값을 뽑아서 그 값으로 한번 더 API를 호출하는 부분에서 결과값 매핑하는 부분을 좀 더 효율적으로 완성하지 못한 것 같아 아쉽습니다.</p>
 	    <p id="fe54cce0-69be-4faf-82bb-326e39345286" class=""></p>

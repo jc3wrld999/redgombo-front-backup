@@ -5,17 +5,14 @@ import NotFound from "@/pages/NotFoundPage.vue";
 // Admin pages
 import Dashboard from "@/pages/Dashboard.vue";
 import UserProfile from "@/pages/UserProfile.vue";
-import Notifications from "@/pages/Notifications.vue";
-import Icons from "@/pages/Icons.vue";
-import Maps from "@/pages/Maps.vue";
-import Typography from "@/pages/Typography.vue";
-import TableList from "@/pages/TableList.vue";
+import TestPage from "@/pages/TestPage.vue"
+import TestPage2 from "@/pages/TestPage2.vue"
 
 const routes = [
   {
     path: "/",
     component: DashboardLayout,
-    redirect: "/dashboard",
+    redirect: "/stats",
     children: [
       {
         path: "dashboard",
@@ -23,35 +20,45 @@ const routes = [
         component: Dashboard,
       },
       {
-        path: "stats",
-        name: "stats",
+        path: "profile",
+        name: "profile",
         component: UserProfile,
       },
       {
-        path: "notifications",
-        name: "notifications",
-        component: Notifications,
+        path: "testPage",
+        name: "test Page",
+        component: TestPage,
       },
       {
-        path: "icons",
-        name: "icons",
-        component: Icons,
+        path: "testPage2",
+        name: "test Page2",
+        component: TestPage2,
       },
-      {
-        path: "maps",
-        name: "maps",
-        component: Maps,
-      },
-      {
-        path: "typography",
-        name: "typography",
-        component: Typography,
-      },
-      {
-        path: "table-list",
-        name: "table-list",
-        component: TableList,
-      },
+      // {
+      //   path: "notifications",
+      //   name: "notifications",
+      //   component: Notifications,
+      // },
+      // {
+      //   path: "icons",
+      //   name: "icons",
+      //   component: Icons,
+      // },
+      // {
+      //   path: "maps",
+      //   name: "maps",
+      //   component: Maps,
+      // },
+      // {
+      //   path: "typography",
+      //   name: "typography",
+      //   component: Typography,
+      // },
+      // {
+      //   path: "table-list",
+      //   name: "table-list",
+      //   component: TableList,
+      // },
     ],
   },
   { path: "*", component: NotFound },
