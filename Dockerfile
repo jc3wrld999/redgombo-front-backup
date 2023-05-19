@@ -11,6 +11,8 @@ FROM nginx:stable-alpine
 
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 COPY --from=Builder /app/dist /usr/share/nginx/html
-COPY entrypoint.sh /
-RUN chmod +x entrypoint.sh
-ENTRYPOINT ["/entrypoint.sh"]
+# COPY entrypoint.sh /
+# RUN chmod +x entrypoint.sh
+# ENTRYPOINT ["/entrypoint.sh"]
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
