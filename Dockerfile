@@ -1,7 +1,6 @@
 # Build with Node.js
 FROM node:16 AS Builder
 RUN apt-get update || : && apt-get install python -y
-RUN rm -rf app
 WORKDIR /app
 COPY package.json yarn.lock /app/
 RUN yarn install
