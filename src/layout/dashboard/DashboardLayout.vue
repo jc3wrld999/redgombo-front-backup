@@ -4,7 +4,7 @@
       <template slot="links">
         <!-- <sidebar-link to="/dashboard" name="Dashboard" icon="ti-panel" /> -->
         <sidebar-link to="/dashboard" name="Profile" />
-        <sidebar-link to="/testPage" name="Test Page" />
+        <sidebar-link to="/testPage3" name="Test Page3" />
         <sidebar-link to="/testPage2" name="Test Page2" />
         <!-- <sidebar-link
           to="/table-list"
